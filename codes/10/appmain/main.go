@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	md "github.com/zcmyron/learn-go-basic/codes/10/models"
+	md "github.com/zcmyron/learn-go-basic/codes/10/learn-go-basic"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package submodels
 
-import "github.com/zcmyron/learn-go-basic/codes/10/models"
+import md "github.com/zcmyron/learn-go-basic/codes/10/learn-go-baisc"
 
 type SportsNews struct {
 	Tags []string
-	News models.NewsModel
+	News md.NewsModel
 }
