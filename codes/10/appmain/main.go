@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	md "learn-go-basic/models"
+
+	md "github.com/zcmyron/learn-go-basic/codes/10/models"
 )
 
 func main() {
