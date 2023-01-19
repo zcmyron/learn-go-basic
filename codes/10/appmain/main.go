@@ -1,8 +1,11 @@
 package main
 
 import (
-	"github.com/zcmyron/learn-go-basic/codes/10/models"
-	"github.com/zcmyron/learn-go-basic/docs/gobasic/10/课件/models"
+	"fmt"
+
+	// "github.com/zcmyron/learn-go-basic/codes/10/models"
+	// "github.com/zcmyron/learn-go-basic/codes/10/submodels"
+	"github.com/zcmyron/learn-go-basic/codes/10/services"
 )
 
 func main() {
@@ -16,6 +19,7 @@ func main() {
 
 	// sportnews := submodels.SportsNews{}
 	// fmt.Println(sportnews)
-	var service Iservice = models.NewsModel()
+	var service services.IService = services.NewsService()
+	fmt.Println(service.Get(1))
 
 }
