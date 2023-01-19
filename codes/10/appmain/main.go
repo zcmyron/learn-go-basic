@@ -19,7 +19,11 @@ func main() {
 
 	// sportnews := submodels.SportsNews{}
 	// fmt.Println(sportnews)
-	var service services.IService = new(services.NewsService)
+	// var service services.IService = new(services.NewsService)
+	// fmt.Println(service.Get(1))
+
+	// var service services.IService = new(services.ServiceFactory).Create("user")
+	var service services.IService = services.NewServiceFactory().Create("news")
 	fmt.Println(service.Get(1))
 
 }
