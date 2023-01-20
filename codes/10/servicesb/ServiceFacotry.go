@@ -19,3 +19,8 @@ func (sf *ServiceFactory) Create(name string) core.IService {
 		return nil
 	}
 }
+
+func init() {
+	core.SetService(NewServiceFactory().Create("news"))
+	core.SetService(NewServiceFactory().Create("user"))
+}
