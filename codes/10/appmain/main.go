@@ -5,7 +5,8 @@ import (
 
 	// "github.com/zcmyron/learn-go-basic/codes/10/models"
 	// "github.com/zcmyron/learn-go-basic/codes/10/submodels"
-	"github.com/zcmyron/learn-go-basic/codes/10/services"
+	core "github.com/zcmyron/learn-go-basic/codes/10/core"
+	services "github.com/zcmyron/learn-go-basic/codes/10/servicesb"
 )
 
 func main() {
@@ -23,7 +24,7 @@ func main() {
 	// fmt.Println(service.Get(1))
 
 	// var service services.IService = new(services.ServiceFactory).Create("user")
-	var service services.IService = services.NewServiceFactory().Create("news")
+	var service core.IService = services.NewServiceFactory().Create("news")
 	fmt.Println(service.Get(1))
 
 }
