@@ -13,8 +13,8 @@ func NewServiceFactory() *ServiceFactory {
 
 func (sf *ServiceFactory) Create(name string) core.IService {
 	switch name {
-	case "news":
-		return &NewsService{}
+	// case "news":
+	// 	return &NewsService{}
 	case "user":
 		return &UserService{}
 	default:
@@ -23,5 +23,5 @@ func (sf *ServiceFactory) Create(name string) core.IService {
 }
 
 func init() {
-	core.SetService(NewServiceFactory().Create("news"))
+	core.SetService(NewServiceFactory().Create("user"))
 }
