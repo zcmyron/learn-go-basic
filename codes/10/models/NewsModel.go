@@ -15,7 +15,3 @@ func (news NewsModel) ToJSON() string {
 		return string(res)
 	}
 }
-
-func (news *NewsModel) Get(id int) string {
-	return "News1"
-}
