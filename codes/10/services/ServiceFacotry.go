@@ -1,6 +1,8 @@
 package services
 
-import core "github.com/zcmyron/learn-go-basic/codes/10/core"
+import (
+	core "github.com/zcmyron/learn-go-basic/codes/10/core"
+)
 
 type ServiceFactory struct {
 }

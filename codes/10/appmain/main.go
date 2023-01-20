@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	core "github.com/zcmyron/learn-go-basic/codes/10/core"
-	_ "github.com/zcmyron/learn-go-basic/codes/10/services"
+	_ "github.com/zcmyron/learn-go-basic/codes/10/services/users"
 )
 
 func main() {
