@@ -1,4 +1,4 @@
-package services
+package users
 
 import (
 	core "github.com/zcmyron/learn-go-basic/codes/10/core"
