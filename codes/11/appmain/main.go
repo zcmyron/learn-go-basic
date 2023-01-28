@@ -1,12 +1,13 @@
 package main
 
 import (
-
-	// "github.com/zcmyron/learn-go-basic/codes/10/models"
+	um "github.com/zcmyron/learn-go-basic/codes/10/models"
 	// "github.com/zcmyron/learn-go-basic/codes/10/submodels"
 	"fmt"
 
-	core "github.com/zcmyron/learn-go-basic/codes/10/core"
+	"database/sql"
+
+	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/zcmyron/learn-go-basic/codes/10/services/users"
 )
 
@@ -27,6 +28,27 @@ func main() {
 	// var service services.IService = new(services.ServiceFactory).Create("user")
 	// var service core.IService = services.NewServiceFactory().Create("news")
 	// core.SetService(services.NewServiceFactory().Create("news"))
-	fmt.Println(core.GetService().Get(1))
+	// fmt.Println(core.GetService().Get(1))
+	db, err := sql.Open("mysql", "root:ZCmyron27@tcp(127.0.0.1:3306)/test1?charset=utf8mb4")
+	if err != nil {
+		fmt.Println("connection error: " + err.Error())
+		return
+	} else {
+		fmt.Println("DB connection successful!")
+	}
+	rows, err := db.Query("select * from test_table_1")
+	if err != nil {
+		fmt.Println("query error: " + err.Error())
+		return
+		// panic(err)
+	}
+	fmt.Println(rows.Columns())
 
+	userModel := um.UserModel{}
+	for rows.Next() {
+		// var uid int
+		// var uname string
+		rows.Scan(&userModel.Uid, &userModel.Uname)
+		fmt.Println(userModel)
+	}
 }
