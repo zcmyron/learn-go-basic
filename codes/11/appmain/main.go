@@ -44,11 +44,18 @@ func main() {
 	}
 	fmt.Println(rows.Columns())
 
-	userModel := um.UserModel{}
+	// userModel := um.UserModel{}
+	// for rows.Next() {
+	// 	// var uid int
+	// 	// var uname string
+	// 	rows.Scan(&userModel.Uid, &userModel.Uname)
+	// 	fmt.Println(userModel)
+	// }
+	userModels := []um.UserModel{}
 	for rows.Next() {
-		// var uid int
-		// var uname string
-		rows.Scan(&userModel.Uid, &userModel.Uname)
-		fmt.Println(userModel)
+		temp := um.UserModel{}
+		rows.Scan(&temp.Uid, &temp.Uname)
+		userModels = append(userModels, temp)
 	}
+	fmt.Println(userModels)
 }
