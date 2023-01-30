@@ -1,7 +1,7 @@
 package main
 
 import (
-	um "github.com/zcmyron/learn-go-basic/codes/10/models"
+
 	// "github.com/zcmyron/learn-go-basic/codes/10/submodels"
 	"fmt"
 
@@ -41,8 +41,10 @@ func main() {
 		fmt.Println("query error: " + err.Error())
 		return
 		// panic(err)
+	} else {
+		fmt.Println("Query successfully!")
 	}
-	fmt.Println(rows.Columns())
+	// fmt.Println(rows.Columns())
 
 	// userModel := um.UserModel{}
 	// for rows.Next() {
@@ -51,11 +53,25 @@ func main() {
 	// 	rows.Scan(&userModel.Uid, &userModel.Uname)
 	// 	fmt.Println(userModel)
 	// }
-	userModels := []um.UserModel{}
+	// userModels := []um.UserModel{}
+	// for rows.Next() {
+	// 	temp := um.UserModel{}
+	// 	rows.Scan(&temp.Uid, &temp.Uname)
+	// 	userModels = append(userModels, temp)
+	// }
+	// fmt.Println(userModels)
+	allRows := make([]interface{}, 0)
 	for rows.Next() {
-		temp := um.UserModel{}
-		rows.Scan(&temp.Uid, &temp.Uname)
-		userModels = append(userModels, temp)
+		oneRow := make([]interface{}, 2)
+		rows.Scan(&oneRow[0], &oneRow[1])
+		for i, val := range oneRow {
+			v, ok := val.([]byte)
+			if ok {
+				oneRow[i] = string(v)
+			}
+		}
+		allRows = append(allRows, oneRow)
 	}
-	fmt.Println(userModels)
+	fmt.Println(allRows)
+
 }
