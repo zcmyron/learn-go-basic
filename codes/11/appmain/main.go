@@ -60,18 +60,38 @@ func main() {
 	// 	userModels = append(userModels, temp)
 	// }
 	// fmt.Println(userModels)
+	// allRows := make([]interface{}, 0)
+	// for rows.Next() {
+	// 	oneRow := make([]interface{}, 2)
+	// 	rows.Scan(&oneRow[0], &oneRow[1])
+	// 	for i, val := range oneRow {
+	// 		v, ok := val.([]byte)
+	// 		if ok {
+	// 			oneRow[i] = string(v)
+	// 		}
+	// 	}
+	// 	allRows = append(allRows, oneRow)
+	// }
+	// fmt.Println(allRows)
+	columns, _ := rows.Columns()
 	allRows := make([]interface{}, 0)
 	for rows.Next() {
-		oneRow := make([]interface{}, 2)
-		rows.Scan(&oneRow[0], &oneRow[1])
+		fieldMap := make(map[string]string)
+		oneRow := make([]interface{}, len(columns))
+		scanRow := make([]interface{}, len(columns))
+		for i, _ := range oneRow {
+			scanRow[i] = &oneRow[i]
+		}
+		rows.Scan(scanRow...)
 		for i, val := range oneRow {
 			v, ok := val.([]byte)
 			if ok {
-				oneRow[i] = string(v)
+				fieldMap[columns[i]] = string(v)
 			}
 		}
-		allRows = append(allRows, oneRow)
+		allRows = append(allRows, fieldMap)
+
 	}
-	fmt.Println(allRows)
+	fmt.Println(allRows...)
 
 }
