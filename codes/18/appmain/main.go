@@ -12,6 +12,13 @@ import (
 	_ "github.com/zcmyron/learn-go-basic/codes/10/services/users"
 )
 
+func test() (ret int) {
+	defer func() {
+		ret = -1
+	}()
+	panic("exception...")
+}
+
 func main() {
 	url := "https://www.cnblogs.com/#p%d"
 
@@ -19,14 +26,19 @@ func main() {
 
 	for i := 0; i <= 3; i++ {
 		go func(index int) {
+			defer func() {
+				if err := recover(); err != nil {
+					fmt.Println(err)
+				}
+
+				if index == 3 {
+					close(c)
+				}
+			}()
 			url := fmt.Sprintf(url, index)
 			res, _ := http.Get(url)
 			cnt, _ := ioutil.ReadAll(res.Body)
 			c <- map[int][]byte{index: cnt}
-
-			if index == 3 {
-				close(c)
-			}
 		}(i)
 
 	}
@@ -35,5 +47,14 @@ func main() {
 			ioutil.WriteFile(fmt.Sprintf("../files/%d", k), v, 0777)
 		}
 	}
+
+	// defer func() {
+	// 	err := recover()
+	// 	if err != nil {
+	// 		fmt.Println(err)
+	// 	}
+	// }()
+
+	// fmt.Println(test())
 
 }
