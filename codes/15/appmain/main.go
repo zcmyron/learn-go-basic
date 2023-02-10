@@ -55,5 +55,7 @@ func main() {
 
 	c1 <- true
 
-	fmt.Println(ret)
+	for v := range ret {
+		fmt.Println(v)
+	}
 }
