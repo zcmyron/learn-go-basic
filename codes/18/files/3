@@ -242,31 +242,31 @@
     <ul>
         <li>
             <a href="https://www.cnblogs.com/weixb/p/17104642.html" id="editor_pick_lnk" target="_blank" data-postId="17104642">
-                <span class="headline-label">【编辑推荐】</span>如何避免让线程摸鱼，请用异步技术 async await 拿捏他(12/16/1566)
+                <span class="headline-label">【编辑推荐】</span>如何避免让线程摸鱼，请用异步技术 async await 拿捏他(21/17/2083)
             </a>
                 <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a>
         </li>
         <li>
-                <a href="https://www.cnblogs.com/rupeng/p/17107662.html" target="_blank" title="评论17, 推荐27, 阅读1025">
-                    <span class="headline-label">【最多推荐】</span>不用Blazor WebAssembly，开发在浏览器端编译和运行C#代码的网站(17/27/1025)
+                <a href="https://www.cnblogs.com/rupeng/p/17107662.html" target="_blank" title="评论19, 推荐29, 阅读1260">
+                    <span class="headline-label">【最多推荐】</span>不用Blazor WebAssembly，开发在浏览器端编译和运行C#代码的网站(19/29/1260)
                 </a>
                 <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a>
         </li>
         <li>
-                <a href="https://www.cnblogs.com/liumashaonian/p/17107167.html" target="_blank" title="评论16, 推荐3, 阅读458">
-                    <span class="headline-label">【最多评论】</span>Java-Integer好大一坑，一不小心就掉进去了(16/3/458)
+                <a href="https://www.cnblogs.com/liumashaonian/p/17107167.html" target="_blank" title="评论19, 推荐5, 阅读700">
+                    <span class="headline-label">【最多评论】</span>Java-Integer好大一坑，一不小心就掉进去了(19/5/700)
                 </a>
                 <a href="/aggsite/topcommented24h" title="查看24小时推荐排行" class="right_more">»</a>
         </li>
         <li>
-                <a href="https://news.cnblogs.com/n/736324/" target="_blank" title="评论0, 推荐1, 阅读141">
-                    <span class="headline-label">【新闻头条】</span>GitHub裁员10% 所有员工远程办公未来将重点关注AI，GitLab裁员7%(0/1/141)
+                <a href="https://news.cnblogs.com/n/736324/" target="_blank" title="评论0, 推荐3, 阅读406">
+                    <span class="headline-label">【新闻头条】</span>GitHub裁员10% 所有员工远程办公未来将重点关注AI，GitLab裁员7%(0/3/406)
                 </a>
                 <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a>
         </li>
         <li>
-                <a href="https://news.cnblogs.com/n/736306/" target="_blank" title="评论0, 推荐3, 阅读682">
-                    <span class="headline-label">【推荐新闻】</span>用ChatGPT做表格真香！只需动嘴提要求和复制粘贴(0/3/682)
+                <a href="https://news.cnblogs.com/n/736306/" target="_blank" title="评论0, 推荐4, 阅读977">
+                    <span class="headline-label">【推荐新闻】</span>用ChatGPT做表格真香！只需动嘴提要求和复制粘贴(0/4/977)
                 </a>
                 <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a>
         </li>
@@ -286,118 +286,201 @@
     </defs>
 </svg>
 
-    <article class="post-item" data-post-id="17106096">
+    <article class="post-item" data-post-id="17109391">
         <section class="post-item-body">
             <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/maerpao/p/17106096.html" target="_blank">【Spring】Bean注册注解</a>
+                <a class="post-item-title" href="https://www.cnblogs.com/eryuan/p/17109391.html" target="_blank">一次生产环境CPU占用高的排查</a>
                 <p class="post-item-summary">
-                    @Configuration 同@Component，将标注的类作为一个组件，区别是会使用Cglib动态代理，因此使用该注解的类不能是final的 与@Component的区别可见：Configuration和@Component的区别 Cglib动态代理和JDK动态代理区别可见：Cglib动态代理 ...
+                        <a href="https://www.cnblogs.com/eryuan/">
+                            <img src="https://pic.cnblogs.com/face/600147/20220103164315.png" class="avatar" alt="博主头像" />
+                        </a>
+                    1. 项目背景 甲方是保密级别非常高的政府部门。所以我们全程拿不到任何测试数据，只能是自己模拟数据进行测试。 项目部署的时候，公司派了一人到甲方现场，在甲方客户全程监督下，进行部署，调试，导入数据等工作。因为前期看不到真实的数据，所以很多功能都是凭客户口述进行，到了现场难免发现问题。 这时需要改动代 ...
                 </p>
             </div>
             <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/maerpao/" class="post-item-author"><span>马儿跑</span></a>
+                <a href="https://www.cnblogs.com/eryuan/" class="post-item-author"><span>是奉壹呀</span></a>
                 <span class="post-meta-item">
-                    <span>2023-02-10 15:08</span>
+                    <span>2023-02-10 17:36</span>
                 </span>
-                <a id="digg_control_17106096" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('maerpao', 17106096, 780203, 1);return false;">
+                <a id="digg_control_17109391" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('eryuan', 17109391, 174605, 1);return false;">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17106096">0</span>
+                    <span id="digg_count_17109391">0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/maerpao/p/17106096.html#commentform">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/eryuan/p/17109391.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_comment"></use>
                     </svg>
                     <span>0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/maerpao/p/17106096.html">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/eryuan/p/17109391.html">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>0</span>
+                    <span>34</span>
                 </a>
-                <span id="digg_tip_17106096" class="digg-tip" style="color: red"></span>
+                <span id="digg_tip_17109391" class="digg-tip" style="color: red"></span>
             </footer>
         </section>
         <figure>
         </figure>
     </article>
-    <article class="post-item" data-post-id="17108957">
+    <article class="post-item" data-post-id="17109618">
         <section class="post-item-body">
             <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/Alandre/p/17108957.html" target="_blank">解决:ChatGPT too many requests in 1 hour.Try again later 怎么办？OpenAI 提示</a>
+                <a class="post-item-title" href="https://www.cnblogs.com/almira998/p/17109618.html" target="_blank">基于APIView&amp;ModelSerializer写接口</a>
                 <p class="post-item-summary">
-                        <a href="https://www.cnblogs.com/Alandre/">
-                            <img src="https://pic.cnblogs.com/face/509099/20220701175923.png" class="avatar" alt="博主头像" />
+                        <a href="https://www.cnblogs.com/almira998/">
+                            <img src="https://pic.cnblogs.com/face/2987444/20220921152645.png" class="avatar" alt="博主头像" />
                         </a>
-                    ChatGPT 提示： Too many requests in 1 hour. Try again later. 如下图，我多次访问也出现同样的问题。中文意思是太多的请求数量在当前 1 个小时内，请稍后重试。那怎么办？怎么解决？ 一、问题现象 我基本试了半个小时，成功次数就 1-2 次。那下面简单 ...
+                    基于APIView&amp;ModelSerializer写接口 ​	引言，首先路由写法还是不变、视图层的视图类写法不变，在序列化类要改变写法、慢慢的靠近序列化器组件；而且需要创建关联表，因为现实生活当中不可能仅仅建单表，会使用大量的多表关联的表数据。好吧！咱们上干货把，首先准备一下路由吧，毕竟就两条代码而 ...
                 </p>
             </div>
             <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/Alandre/" class="post-item-author"><span>程序员泥瓦匠</span></a>
+                <a href="https://www.cnblogs.com/almira998/" class="post-item-author"><span>阿丽米热</span></a>
                 <span class="post-meta-item">
-                    <span>2023-02-10 14:58</span>
+                    <span>2023-02-10 16:59</span>
                 </span>
-                <a id="digg_control_17108957" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('Alandre', 17108957, 149665, 1);return false;">
+                <a id="digg_control_17109618" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('almira998', 17109618, 768961, 1);return false;">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17108957">0</span>
+                    <span id="digg_count_17109618">0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/Alandre/p/17108957.html#commentform">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/almira998/p/17109618.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_comment"></use>
                     </svg>
                     <span>0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/Alandre/p/17108957.html">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/almira998/p/17109618.html">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>43</span>
+                    <span>51</span>
                 </a>
-                <span id="digg_tip_17108957" class="digg-tip" style="color: red"></span>
+                <span id="digg_tip_17109618" class="digg-tip" style="color: red"></span>
             </footer>
         </section>
         <figure>
         </figure>
     </article>
-    <article class="post-item" data-post-id="17108946">
+    <article class="post-item" data-post-id="17108995">
         <section class="post-item-body">
             <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/developer-huawei/p/17108946.html" target="_blank">【HMS Core】一张图片带你玩转机器学习服务</a>
+                <a class="post-item-title" href="https://www.cnblogs.com/cdap/p/17108995.html" target="_blank">(一) MdbCluster分布式内存数据库——基础架构介绍</a>
                 <p class="post-item-summary">
-                        <a href="https://www.cnblogs.com/developer-huawei/">
-                            <img src="https://pic.cnblogs.com/face/1969374/20200826170344.png" class="avatar" alt="博主头像" />
+                        <a href="https://www.cnblogs.com/cdap/">
+                            <img src="https://pic.cnblogs.com/face/1271768/20180109105318.png" class="avatar" alt="博主头像" />
                         </a>
-                    ​1、介绍 总览 Cloud DB（云数据库）是一款端云协同的数据库产品，提供端云数据的协同管理、统一的数据模型和丰富的数据管理API接口等能力。在保证数据的可用性、可靠性、一致性，以及安全等特性基础上，能够实现数据在客户端和云端之间的无缝同步。 ML Kit为（机器学习服务）开发者提供简单易用、服 ...
+                    (一) MdbCluster分布式内存数据库——基础架构介绍 这个项目是怎么开始的我已经有些记不清楚了，大概是原来的内存数据库很不好用，一次次地让我们踩坑，我又自以为是地觉得可以做一个更好的出来。自从拥有自己的团队以来，我思考最多的总是如何带着团队做出有意义和有价值的产品，而不是将时间浪费在无谓的琐 ...
                 </p>
             </div>
             <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/developer-huawei/" class="post-item-author"><span>华为开发者论坛</span></a>
+                <a href="https://www.cnblogs.com/cdap/" class="post-item-author"><span>smartguy</span></a>
                 <span class="post-meta-item">
-                    <span>2023-02-10 14:57</span>
+                    <span>2023-02-10 16:56</span>
                 </span>
-                <a id="digg_control_17108946" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('developer-huawei', 17108946, 589679, 1);return false;">
+                <a id="digg_control_17108995" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('cdap', 17108995, 393047, 1);return false;">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17108946">0</span>
+                    <span id="digg_count_17108995">0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/developer-huawei/p/17108946.html#commentform">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/cdap/p/17108995.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_comment"></use>
                     </svg>
                     <span>0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/developer-huawei/p/17108946.html">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/cdap/p/17108995.html">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>17</span>
+                    <span>24</span>
                 </a>
-                <span id="digg_tip_17108946" class="digg-tip" style="color: red"></span>
+                <span id="digg_tip_17108995" class="digg-tip" style="color: red"></span>
+            </footer>
+        </section>
+        <figure>
+        </figure>
+    </article>
+    <article class="post-item" data-post-id="17078177">
+        <section class="post-item-body">
+            <div class="post-item-text">
+                <a class="post-item-title" href="https://www.cnblogs.com/Christa/p/17078177.html" target="_blank">【Oculus Interaction SDK】（六）实体按钮 &amp;&amp; 按压交互</a>
+                <p class="post-item-summary">
+                        <a href="https://www.cnblogs.com/Christa/">
+                            <img src="https://pic.cnblogs.com/face/2975590/20221008201837.png" class="avatar" alt="博主头像" />
+                        </a>
+                    前言 这篇文章是【Oculus Interaction SDK】系列的一部分，如果发现有对不上的对方，可以回去翻看我之前发布的文章，或在评论区留言。如果文章的内容已经不适用于新版本了，也可以直接联系我，我会持续更新文章内容。 当前适用版本： Unity 版本：2021.3.7f1c1 Oculus  ...
+                </p>
+            </div>
+            <footer class="post-item-foot">
+                <a href="https://www.cnblogs.com/Christa/" class="post-item-author"><span>千叶Christa</span></a>
+                <span class="post-meta-item">
+                    <span>2023-02-10 16:03</span>
+                </span>
+                <a id="digg_control_17078177" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('Christa', 17078177, 771048, 1);return false;">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_digg"></use>
+                    </svg>
+                    <span id="digg_count_17078177">1</span>
+                </a>
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/Christa/p/17078177.html#commentform">
+                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_comment"></use>
+                    </svg>
+                    <span>0</span>
+                </a>
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/Christa/p/17078177.html">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_views"></use>
+                    </svg>
+                    <span>56</span>
+                </a>
+                <span id="digg_tip_17078177" class="digg-tip" style="color: red"></span>
+            </footer>
+        </section>
+        <figure>
+        </figure>
+    </article>
+    <article class="post-item" data-post-id="17109302">
+        <section class="post-item-body">
+            <div class="post-item-text">
+                <a class="post-item-title" href="https://www.cnblogs.com/HappyTeemo/p/17109302.html" target="_blank">Go使用协程批量获取数据，加快接口返回速度</a>
+                <p class="post-item-summary">
+                        <a href="https://www.cnblogs.com/HappyTeemo/">
+                            <img src="https://pic.cnblogs.com/face/1181870/20210827103919.png" class="avatar" alt="博主头像" />
+                        </a>
+                    服务端经常需要返回一个列表，里面包含很多用户数据，常规做法当然是遍历然后读缓存。 使用Go语言后，可以并发获取，极大提升效率。 使用channel package main import ( &quot;fmt&quot; &quot;time&quot; ) func add2(a, b int, ch chan int) { c := ...
+                </p>
+            </div>
+            <footer class="post-item-foot">
+                <a href="https://www.cnblogs.com/HappyTeemo/" class="post-item-author"><span>快乐的提千万</span></a>
+                <span class="post-meta-item">
+                    <span>2023-02-10 16:01</span>
+                </span>
+                <a id="digg_control_17109302" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('HappyTeemo', 17109302, 370616, 1);return false;">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_digg"></use>
+                    </svg>
+                    <span id="digg_count_17109302">1</span>
+                </a>
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/HappyTeemo/p/17109302.html#commentform">
+                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_comment"></use>
+                    </svg>
+                    <span>0</span>
+                </a>
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/HappyTeemo/p/17109302.html">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="#icon_views"></use>
+                    </svg>
+                    <span>104</span>
+                </a>
+                <span id="digg_tip_17109302" class="digg-tip" style="color: red"></span>
             </footer>
         </section>
         <figure>
@@ -420,19 +503,19 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17108843">0</span>
+                    <span id="digg_count_17108843">1</span>
                 </a>
                 <a class="post-meta-item btn" href="https://www.cnblogs.com/alson/p/17108843.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_comment"></use>
                     </svg>
-                    <span>0</span>
+                    <span>1</span>
                 </a>
                 <a class="post-meta-item btn" href="https://www.cnblogs.com/alson/p/17108843.html">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>54</span>
+                    <span>218</span>
                 </a>
                 <span id="digg_tip_17108843" class="digg-tip" style="color: red"></span>
             </footer>
@@ -460,7 +543,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17091055">0</span>
+                    <span id="digg_count_17091055">1</span>
                 </a>
                 <a class="post-meta-item btn" href="https://www.cnblogs.com/wzh2010/p/17091055.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -472,7 +555,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>59</span>
+                    <span>277</span>
                 </a>
                 <span id="digg_tip_17091055" class="digg-tip" style="color: red"></span>
             </footer>
@@ -480,81 +563,41 @@
         <figure>
         </figure>
     </article>
-    <article class="post-item" data-post-id="17093549">
+    <article class="post-item" data-post-id="17108824">
         <section class="post-item-body">
             <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/buchizicai/p/17093549.html" target="_blank">Feign远程调用 (介绍与使用)</a>
+                <a class="post-item-title" href="https://www.cnblogs.com/VideoCloudTech/p/17108824.html" target="_blank">课程回顾｜以智能之力，加速媒体生产全自动进程</a>
                 <p class="post-item-summary">
-                        <a href="https://www.cnblogs.com/buchizicai/">
-                            <img src="https://pic.cnblogs.com/face/2729274/20220117165231.png" class="avatar" alt="博主头像" />
+                        <a href="https://www.cnblogs.com/VideoCloudTech/">
+                            <img src="https://pic.cnblogs.com/face/2200703/20210420162345.png" class="avatar" alt="博主头像" />
                         </a>
-                    Feign是Netflix开发的一个轻量级RESTful的HTTP服务客户端(用它来发起请求,远程调用的),是以Java接口注解的方式调用Http请求,而不用像Java中通过封装 HTTP请求报文的方式直接调用,Feign被广泛应用在Spring Cloud 的解决方案中。类似于Dubbo，服务消费... ...
+                    本文内容整理自「智能媒体生产」系列课程第二讲：视频AI与智能生产制作，由阿里云智能视频云高级技术专家分享视频AI原理，AI辅助媒体生产，音视频智能化能力和底层原理，以及如何利用阿里云现有资源使用音视频AI能力。课程回放见文末。 01 算法演进：视频AI原理 在媒体生产的全生命周期中，AI算法辅助提升 ...
                 </p>
             </div>
             <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/buchizicai/" class="post-item-author"><span>不吃紫菜</span></a>
+                <a href="https://www.cnblogs.com/VideoCloudTech/" class="post-item-author"><span>阿里云视频云</span></a>
                 <span class="post-meta-item">
-                    <span>2023-02-10 14:29</span>
+                    <span>2023-02-10 14:33</span>
                 </span>
-                <a id="digg_control_17093549" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('buchizicai', 17093549, 729813, 1);return false;">
+                <a id="digg_control_17108824" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('VideoCloudTech', 17108824, 643827, 1);return false;">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17093549">0</span>
+                    <span id="digg_count_17108824">0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/buchizicai/p/17093549.html#commentform">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/VideoCloudTech/p/17108824.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_comment"></use>
                     </svg>
                     <span>0</span>
                 </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/buchizicai/p/17093549.html">
+                <a class="post-meta-item btn" href="https://www.cnblogs.com/VideoCloudTech/p/17108824.html">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>53</span>
+                    <span>36</span>
                 </a>
-                <span id="digg_tip_17093549" class="digg-tip" style="color: red"></span>
-            </footer>
-        </section>
-        <figure>
-        </figure>
-    </article>
-    <article class="post-item" data-post-id="17108807">
-        <section class="post-item-body">
-            <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/JuiceData/p/17108807.html" target="_blank">浅析 SeaweedFS 与 JuiceFS 架构异同</a>
-                <p class="post-item-summary">
-                        <a href="https://www.cnblogs.com/JuiceData/">
-                            <img src="https://pic.cnblogs.com/face/2544292/20211210150916.png" class="avatar" alt="博主头像" />
-                        </a>
-                    SeaweedFS 是一款高效的分布式文件存储系统，最早的设计原型参考了 Facebook 的 Haystack，具有快速读写小数据块的能力。本文将通过对比 SeaweedFS 与 JuiceFS 在设计与功能上的差异，以帮助读者进行更适合自己的选择。 SeaweedFS 系统结构 SeaweedF ...
-                </p>
-            </div>
-            <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/JuiceData/" class="post-item-author"><span>JuiceFS</span></a>
-                <span class="post-meta-item">
-                    <span>2023-02-10 14:28</span>
-                </span>
-                <a id="digg_control_17108807" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('JuiceData', 17108807, 707139, 1);return false;">
-                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_digg"></use>
-                    </svg>
-                    <span id="digg_count_17108807">0</span>
-                </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/JuiceData/p/17108807.html#commentform">
-                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_comment"></use>
-                    </svg>
-                    <span>0</span>
-                </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/JuiceData/p/17108807.html">
-                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_views"></use>
-                    </svg>
-                    <span>20</span>
-                </a>
-                <span id="digg_tip_17108807" class="digg-tip" style="color: red"></span>
+                <span id="digg_tip_17108824" class="digg-tip" style="color: red"></span>
             </footer>
         </section>
         <figure>
@@ -592,7 +635,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>52</span>
+                    <span>169</span>
                 </a>
                 <span id="digg_tip_17108743" class="digg-tip" style="color: red"></span>
             </footer>
@@ -632,7 +675,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>37</span>
+                    <span>109</span>
                 </a>
                 <span id="digg_tip_17108708" class="digg-tip" style="color: red"></span>
             </footer>
@@ -672,7 +715,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>67</span>
+                    <span>93</span>
                 </a>
                 <span id="digg_tip_17108402" class="digg-tip" style="color: red"></span>
             </footer>
@@ -712,7 +755,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>180</span>
+                    <span>223</span>
                 </a>
                 <span id="digg_tip_17108046" class="digg-tip" style="color: red"></span>
             </footer>
@@ -740,7 +783,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_digg"></use>
                     </svg>
-                    <span id="digg_count_17108031">0</span>
+                    <span id="digg_count_17108031">1</span>
                 </a>
                 <a class="post-meta-item btn" href="https://www.cnblogs.com/sealio/p/17108031.html#commentform">
                     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -752,7 +795,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>239</span>
+                    <span>309</span>
                 </a>
                 <span id="digg_tip_17108031" class="digg-tip" style="color: red"></span>
             </footer>
@@ -792,7 +835,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>116</span>
+                    <span>151</span>
                 </a>
                 <span id="digg_tip_17107980" class="digg-tip" style="color: red"></span>
             </footer>
@@ -832,7 +875,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>70</span>
+                    <span>87</span>
                 </a>
                 <span id="digg_tip_17107915" class="digg-tip" style="color: red"></span>
             </footer>
@@ -872,7 +915,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>120</span>
+                    <span>147</span>
                 </a>
                 <span id="digg_tip_17105074" class="digg-tip" style="color: red"></span>
             </footer>
@@ -912,7 +955,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>75</span>
+                    <span>85</span>
                 </a>
                 <span id="digg_tip_17107815" class="digg-tip" style="color: red"></span>
             </footer>
@@ -952,7 +995,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>156</span>
+                    <span>212</span>
                 </a>
                 <span id="digg_tip_17107807" class="digg-tip" style="color: red"></span>
             </footer>
@@ -992,7 +1035,7 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>90</span>
+                    <span>122</span>
                 </a>
                 <span id="digg_tip_17107393" class="digg-tip" style="color: red"></span>
             </footer>
@@ -1032,49 +1075,9 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#icon_views"></use>
                     </svg>
-                    <span>489</span>
+                    <span>638</span>
                 </a>
                 <span id="digg_tip_17107758" class="digg-tip" style="color: red"></span>
-            </footer>
-        </section>
-        <figure>
-        </figure>
-    </article>
-    <article class="post-item" data-post-id="17104697">
-        <section class="post-item-body">
-            <div class="post-item-text">
-                <a class="post-item-title" href="https://www.cnblogs.com/mhg215/p/17104697.html" target="_blank">必知必会的设计原则——接口隔离原则</a>
-                <p class="post-item-summary">
-                        <a href="https://www.cnblogs.com/mhg215/">
-                            <img src="https://pic.cnblogs.com/face/1046844/20221011221127.png" class="avatar" alt="博主头像" />
-                        </a>
-                    设计原则系列文章 必知必会的设计原则——单一职责原则 必知必会的设计原则——开放封闭原则 必知必会的设计原则——依赖倒置原则 必知必会的设计原则——里氏替换原则 概述 1、 客户端不应该依赖它不需要的接口。2、 一个类对另一个类的依赖应该建立在最小接口上。3、接口应尽量细分，不要在一个接口中放很多方 ...
-                </p>
-            </div>
-            <footer class="post-item-foot">
-                <a href="https://www.cnblogs.com/mhg215/" class="post-item-author"><span>realyrare</span></a>
-                <span class="post-meta-item">
-                    <span>2023-02-10 08:55</span>
-                </span>
-                <a id="digg_control_17104697" class="post-meta-item btn " href="javascript:void(0)" onclick="DiggPost('mhg215', 17104697, 312471, 1);return false;">
-                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_digg"></use>
-                    </svg>
-                    <span id="digg_count_17104697">2</span>
-                </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/mhg215/p/17104697.html#commentform">
-                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_comment"></use>
-                    </svg>
-                    <span>0</span>
-                </a>
-                <a class="post-meta-item btn" href="https://www.cnblogs.com/mhg215/p/17104697.html">
-                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <use xlink:href="#icon_views"></use>
-                    </svg>
-                    <span>308</span>
-                </a>
-                <span id="digg_tip_17104697" class="digg-tip" style="color: red"></span>
             </footer>
         </section>
         <figure>

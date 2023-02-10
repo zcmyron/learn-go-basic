@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"time"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/zcmyron/learn-go-basic/codes/10/services/users"
@@ -31,9 +32,9 @@ func main() {
 					fmt.Println(err)
 				}
 
-				if index == 3 {
-					close(c)
-				}
+				// if index == 3 {
+				// 	close(c)
+				// }
 			}()
 			url := fmt.Sprintf(url, index)
 			res, _ := http.Get(url)
@@ -42,9 +43,27 @@ func main() {
 		}(i)
 
 	}
-	for getcnt := range c {
-		for k, v := range getcnt {
-			ioutil.WriteFile(fmt.Sprintf("../files/%d", k), v, 0777)
+	// i := 0
+	// for getcnt := range c {
+	// 	for k, v := range getcnt {
+	// 		ioutil.WriteFile(fmt.Sprintf("../files/%d", k), v, 0777)
+	// 	}
+	// 	i++
+	// 	if i == 3 {
+	// 		close(c)
+	// 	}
+	// }
+
+	result := map[int][]byte{}
+myloop:
+	for {
+		select {
+		case result = <-c:
+			for k, v := range result {
+				ioutil.WriteFile(fmt.Sprintf("../files/%d", k), v, 0777)
+			}
+		case <-time.After(time.Second * 3):
+			break myloop
 		}
 	}
 
